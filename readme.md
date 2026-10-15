@@ -1,6 +1,6 @@
-CREATE DATABASE course_db;
+CREATE DATABASE coursedb;
 
-USE course_db;
+USE coursedb;
 
 CREATE TABLE courses (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -8,24 +8,12 @@ CREATE TABLE courses (
     credits INT
 );
 in one terminal
+cd courseangular
+npm install
 node server.js
 
 in another terminal
-npm run dev
-
-
-
-
-
-if u wanna install everthing on ur system
-npm init -y
-npm install express mysql2 cors
-
-in one terminal
-node server.js
-
-in another terminal
-npm create vite@latest course-frontend -- --template react
 cd course-frontend
 npm install
 npm run dev
+
